@@ -9,6 +9,8 @@ readme = "README.md"
 python = ">=3.12,<3.14"
 pyside6 = "^6.8.1"
 pyvisa = "^1.14.1"
+numpy = "^2.1.3"
+pyqtgraph = "^0.13.7"
 
 
 [build-system]
