@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "morse"
+version = "0.1.0"
+description = ""
+authors = ["YannickLeeuwin <yannick.leeuwin@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "morse", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
